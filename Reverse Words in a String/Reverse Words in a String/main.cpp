@@ -4,7 +4,15 @@
 //
 //  Created by liang on 11/3/14.
 //  Copyright (c) 2014 Tina. All rights reserved.
+//  Problem: https://oj.leetcode.com/problems/reverse-words-in-a-string/
+//Given an input string, reverse the string word by word.
 //
+//For example,
+//Given s = "the sky is blue",
+//return "blue is sky the".
+//
+//Update (2015-02-12):
+//For C programmers: Try to solve it in-place in O(1) space.
 
 #include <iostream>
 #include <algorithm>
