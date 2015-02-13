@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LRU Cache/LRU Cache.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Reverse Words in a String/Reverse Words in a String.xcodeproj">
    </FileRef>
    <FileRef
