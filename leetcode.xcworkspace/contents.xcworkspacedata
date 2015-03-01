@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Rotate Array/Rotate Array.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Min Stack/Min Stack.xcodeproj">
    </FileRef>
    <FileRef
