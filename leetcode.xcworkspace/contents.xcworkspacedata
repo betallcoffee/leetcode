@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Longest Substring Without Repeating Characters/Longest Substring Without Repeating Characters.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Add Two Numbers/Add Two Numbers.xcodeproj">
    </FileRef>
    <FileRef
