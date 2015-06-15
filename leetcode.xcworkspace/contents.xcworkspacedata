@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Two Sum/Two Sum.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Rotate Array/Rotate Array.xcodeproj">
    </FileRef>
    <FileRef
