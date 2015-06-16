@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Median of Two Sorted Arrays/Median of Two Sorted Arrays.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Longest Substring Without Repeating Characters/Longest Substring Without Repeating Characters.xcodeproj">
    </FileRef>
    <FileRef
