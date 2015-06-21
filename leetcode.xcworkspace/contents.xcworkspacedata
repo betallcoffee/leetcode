@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Roman to Integer/Roman to Integer.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Integer to Roman/Integer to Roman.xcodeproj">
    </FileRef>
    <FileRef
