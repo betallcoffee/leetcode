@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Letter Combinations of a Phone Number/Letter Combinations of a Phone Number.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:3Sum Closest/3Sum Closest.xcodeproj">
    </FileRef>
    <FileRef
