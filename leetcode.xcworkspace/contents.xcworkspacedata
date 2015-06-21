@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Longest Common Prefix/Longest Common Prefix.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Roman to Integer/Roman to Integer.xcodeproj">
    </FileRef>
    <FileRef
