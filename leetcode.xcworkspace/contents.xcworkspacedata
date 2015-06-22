@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Valid Parentheses/Valid Parentheses.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Remove Nth Node From End of List/Remove Nth Node From End of List.xcodeproj">
    </FileRef>
    <FileRef
