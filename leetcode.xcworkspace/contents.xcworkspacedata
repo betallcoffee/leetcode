@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Generate Parenteses/Generate Parenteses.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Merge Two Sorted Lists/Merge Two Sorted Lists.xcodeproj">
    </FileRef>
    <FileRef
