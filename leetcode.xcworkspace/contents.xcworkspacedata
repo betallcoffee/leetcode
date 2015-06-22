@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Implement strStr/Implement strStr.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Remove Element/Remove Element.xcodeproj">
    </FileRef>
    <FileRef
