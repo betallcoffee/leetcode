@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Swap Nodes In Pairs/Swap Nodes In Pairs.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Merge k Sorted Lists/Merge k Sorted Lists.xcodeproj">
    </FileRef>
    <FileRef
