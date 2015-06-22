@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Remove Element/Remove Element.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Remove Duplicates from Sorted Array/Remove Duplicates from Sorted Array.xcodeproj">
    </FileRef>
    <FileRef
