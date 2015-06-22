@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Reverse Nodes in k-Group/Reverse Nodes in k-Group.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Swap Nodes In Pairs/Swap Nodes In Pairs.xcodeproj">
    </FileRef>
    <FileRef

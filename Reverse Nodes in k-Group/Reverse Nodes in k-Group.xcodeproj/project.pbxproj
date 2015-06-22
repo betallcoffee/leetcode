@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC33CB661B3804BD003A3FEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC33CB651B3804BD003A3FEE /* main.cpp */; };
+		ECD28A8D1B38185E00006830 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A8C1B38185E00006830 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EC33CB601B3804BD003A3FEE /* CopyFiles */ = {
+		ECD28A871B38185E00006830 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EC33CB621B3804BD003A3FEE /* Swap Nodes In Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swap Nodes In Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC33CB651B3804BD003A3FEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ECD28A891B38185E00006830 /* Reverse Nodes in k-Group */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Nodes in k-Group"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD28A8C1B38185E00006830 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC33CB5F1B3804BD003A3FEE /* Frameworks */ = {
+		ECD28A861B38185E00006830 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC33CB591B3804BD003A3FEE = {
+		ECD28A801B38185E00006830 = {
 			isa = PBXGroup;
 			children = (
-				EC33CB641B3804BD003A3FEE /* Swap Nodes In Pairs */,
-				EC33CB631B3804BD003A3FEE /* Products */,
+				ECD28A8B1B38185E00006830 /* Reverse Nodes in k-Group */,
+				ECD28A8A1B38185E00006830 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC33CB631B3804BD003A3FEE /* Products */ = {
+		ECD28A8A1B38185E00006830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC33CB621B3804BD003A3FEE /* Swap Nodes In Pairs */,
+				ECD28A891B38185E00006830 /* Reverse Nodes in k-Group */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC33CB641B3804BD003A3FEE /* Swap Nodes In Pairs */ = {
+		ECD28A8B1B38185E00006830 /* Reverse Nodes in k-Group */ = {
 			isa = PBXGroup;
 			children = (
-				EC33CB651B3804BD003A3FEE /* main.cpp */,
+				ECD28A8C1B38185E00006830 /* main.cpp */,
 			);
-			path = "Swap Nodes In Pairs";
+			path = "Reverse Nodes in k-Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC33CB611B3804BD003A3FEE /* Swap Nodes In Pairs */ = {
+		ECD28A881B38185E00006830 /* Reverse Nodes in k-Group */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC33CB691B3804BD003A3FEE /* Build configuration list for PBXNativeTarget "Swap Nodes In Pairs" */;
+			buildConfigurationList = ECD28A901B38185E00006830 /* Build configuration list for PBXNativeTarget "Reverse Nodes in k-Group" */;
 			buildPhases = (
-				EC33CB5E1B3804BD003A3FEE /* Sources */,
-				EC33CB5F1B3804BD003A3FEE /* Frameworks */,
-				EC33CB601B3804BD003A3FEE /* CopyFiles */,
+				ECD28A851B38185E00006830 /* Sources */,
+				ECD28A861B38185E00006830 /* Frameworks */,
+				ECD28A871B38185E00006830 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swap Nodes In Pairs";
-			productName = "Swap Nodes In Pairs";
-			productReference = EC33CB621B3804BD003A3FEE /* Swap Nodes In Pairs */;
+			name = "Reverse Nodes in k-Group";
+			productName = "Reverse Nodes in k-Group";
+			productReference = ECD28A891B38185E00006830 /* Reverse Nodes in k-Group */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC33CB5A1B3804BD003A3FEE /* Project object */ = {
+		ECD28A811B38185E00006830 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tina;
 				TargetAttributes = {
-					EC33CB611B3804BD003A3FEE = {
+					ECD28A881B38185E00006830 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = EC33CB5D1B3804BD003A3FEE /* Build configuration list for PBXProject "Swap Nodes In Pairs" */;
+			buildConfigurationList = ECD28A841B38185E00006830 /* Build configuration list for PBXProject "Reverse Nodes in k-Group" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EC33CB591B3804BD003A3FEE;
-			productRefGroup = EC33CB631B3804BD003A3FEE /* Products */;
+			mainGroup = ECD28A801B38185E00006830;
+			productRefGroup = ECD28A8A1B38185E00006830 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC33CB611B3804BD003A3FEE /* Swap Nodes In Pairs */,
+				ECD28A881B38185E00006830 /* Reverse Nodes in k-Group */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC33CB5E1B3804BD003A3FEE /* Sources */ = {
+		ECD28A851B38185E00006830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC33CB661B3804BD003A3FEE /* main.cpp in Sources */,
+				ECD28A8D1B38185E00006830 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EC33CB671B3804BD003A3FEE /* Debug */ = {
+		ECD28A8E1B38185E00006830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		EC33CB681B3804BD003A3FEE /* Release */ = {
+		ECD28A8F1B38185E00006830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		EC33CB6A1B3804BD003A3FEE /* Debug */ = {
+		ECD28A911B38185E00006830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		EC33CB6B1B3804BD003A3FEE /* Release */ = {
+		ECD28A921B38185E00006830 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC33CB5D1B3804BD003A3FEE /* Build configuration list for PBXProject "Swap Nodes In Pairs" */ = {
+		ECD28A841B38185E00006830 /* Build configuration list for PBXProject "Reverse Nodes in k-Group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC33CB671B3804BD003A3FEE /* Debug */,
-				EC33CB681B3804BD003A3FEE /* Release */,
+				ECD28A8E1B38185E00006830 /* Debug */,
+				ECD28A8F1B38185E00006830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC33CB691B3804BD003A3FEE /* Build configuration list for PBXNativeTarget "Swap Nodes In Pairs" */ = {
+		ECD28A901B38185E00006830 /* Build configuration list for PBXNativeTarget "Reverse Nodes in k-Group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC33CB6A1B3804BD003A3FEE /* Debug */,
-				EC33CB6B1B3804BD003A3FEE /* Release */,
+				ECD28A911B38185E00006830 /* Debug */,
+				ECD28A921B38185E00006830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC33CB5A1B3804BD003A3FEE /* Project object */;
+	rootObject = ECD28A811B38185E00006830 /* Project object */;
 }
