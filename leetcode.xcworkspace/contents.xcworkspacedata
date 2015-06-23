@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Divide Two Integers/Divide Two Integers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Implement strStr/Implement strStr.xcodeproj">
    </FileRef>
    <FileRef
