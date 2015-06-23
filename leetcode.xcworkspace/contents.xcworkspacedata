@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Next Permutation/Next Permutation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Substring with Concatenation of All Words/Substring with Concatenation of All Words.xcodeproj">
    </FileRef>
    <FileRef
