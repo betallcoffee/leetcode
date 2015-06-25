@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Longet Valid Parentheses/Longet Valid Parentheses.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Next Permutation/Next Permutation.xcodeproj">
    </FileRef>
    <FileRef
