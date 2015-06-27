@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Search in Rotated Sorted Array/Search in Rotated Sorted Array.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Longet Valid Parentheses/Longet Valid Parentheses.xcodeproj">
    </FileRef>
    <FileRef

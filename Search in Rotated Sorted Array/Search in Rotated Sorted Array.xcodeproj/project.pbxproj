@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD28B3C1B39BA2600006830 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD28B3B1B39BA2600006830 /* main.cpp */; };
+		ECD80BAA1B3EE5A200A46D25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD80BA91B3EE5A200A46D25 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ECD28B361B39BA2600006830 /* CopyFiles */ = {
+		ECD80BA41B3EE5A200A46D25 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ECD28B381B39BA2600006830 /* Longet Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longet Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD28B3B1B39BA2600006830 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ECD80BA61B3EE5A200A46D25 /* Search in Rotated Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Search in Rotated Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD80BA91B3EE5A200A46D25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECD28B351B39BA2600006830 /* Frameworks */ = {
+		ECD80BA31B3EE5A200A46D25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECD28B2F1B39BA2600006830 = {
+		ECD80B9D1B3EE5A200A46D25 = {
 			isa = PBXGroup;
 			children = (
-				ECD28B3A1B39BA2600006830 /* Longet Valid Parentheses */,
-				ECD28B391B39BA2600006830 /* Products */,
+				ECD80BA81B3EE5A200A46D25 /* Search in Rotated Sorted Array */,
+				ECD80BA71B3EE5A200A46D25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECD28B391B39BA2600006830 /* Products */ = {
+		ECD80BA71B3EE5A200A46D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECD28B381B39BA2600006830 /* Longet Valid Parentheses */,
+				ECD80BA61B3EE5A200A46D25 /* Search in Rotated Sorted Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD28B3A1B39BA2600006830 /* Longet Valid Parentheses */ = {
+		ECD80BA81B3EE5A200A46D25 /* Search in Rotated Sorted Array */ = {
 			isa = PBXGroup;
 			children = (
-				ECD28B3B1B39BA2600006830 /* main.cpp */,
+				ECD80BA91B3EE5A200A46D25 /* main.cpp */,
 			);
-			path = "Longet Valid Parentheses";
+			path = "Search in Rotated Sorted Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECD28B371B39BA2600006830 /* Longet Valid Parentheses */ = {
+		ECD80BA51B3EE5A200A46D25 /* Search in Rotated Sorted Array */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD28B3F1B39BA2600006830 /* Build configuration list for PBXNativeTarget "Longet Valid Parentheses" */;
+			buildConfigurationList = ECD80BAD1B3EE5A200A46D25 /* Build configuration list for PBXNativeTarget "Search in Rotated Sorted Array" */;
 			buildPhases = (
-				ECD28B341B39BA2600006830 /* Sources */,
-				ECD28B351B39BA2600006830 /* Frameworks */,
-				ECD28B361B39BA2600006830 /* CopyFiles */,
+				ECD80BA21B3EE5A200A46D25 /* Sources */,
+				ECD80BA31B3EE5A200A46D25 /* Frameworks */,
+				ECD80BA41B3EE5A200A46D25 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Longet Valid Parentheses";
-			productName = "Longet Valid Parentheses";
-			productReference = ECD28B381B39BA2600006830 /* Longet Valid Parentheses */;
+			name = "Search in Rotated Sorted Array";
+			productName = "Search in Rotated Sorted Array";
+			productReference = ECD80BA61B3EE5A200A46D25 /* Search in Rotated Sorted Array */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECD28B301B39BA2600006830 /* Project object */ = {
+		ECD80B9E1B3EE5A200A46D25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tina;
 				TargetAttributes = {
-					ECD28B371B39BA2600006830 = {
+					ECD80BA51B3EE5A200A46D25 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = ECD28B331B39BA2600006830 /* Build configuration list for PBXProject "Longet Valid Parentheses" */;
+			buildConfigurationList = ECD80BA11B3EE5A200A46D25 /* Build configuration list for PBXProject "Search in Rotated Sorted Array" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ECD28B2F1B39BA2600006830;
-			productRefGroup = ECD28B391B39BA2600006830 /* Products */;
+			mainGroup = ECD80B9D1B3EE5A200A46D25;
+			productRefGroup = ECD80BA71B3EE5A200A46D25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECD28B371B39BA2600006830 /* Longet Valid Parentheses */,
+				ECD80BA51B3EE5A200A46D25 /* Search in Rotated Sorted Array */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECD28B341B39BA2600006830 /* Sources */ = {
+		ECD80BA21B3EE5A200A46D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD28B3C1B39BA2600006830 /* main.cpp in Sources */,
+				ECD80BAA1B3EE5A200A46D25 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ECD28B3D1B39BA2600006830 /* Debug */ = {
+		ECD80BAB1B3EE5A200A46D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		ECD28B3E1B39BA2600006830 /* Release */ = {
+		ECD80BAC1B3EE5A200A46D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		ECD28B401B39BA2600006830 /* Debug */ = {
+		ECD80BAE1B3EE5A200A46D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ECD28B411B39BA2600006830 /* Release */ = {
+		ECD80BAF1B3EE5A200A46D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECD28B331B39BA2600006830 /* Build configuration list for PBXProject "Longet Valid Parentheses" */ = {
+		ECD80BA11B3EE5A200A46D25 /* Build configuration list for PBXProject "Search in Rotated Sorted Array" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD28B3D1B39BA2600006830 /* Debug */,
-				ECD28B3E1B39BA2600006830 /* Release */,
+				ECD80BAB1B3EE5A200A46D25 /* Debug */,
+				ECD80BAC1B3EE5A200A46D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD28B3F1B39BA2600006830 /* Build configuration list for PBXNativeTarget "Longet Valid Parentheses" */ = {
+		ECD80BAD1B3EE5A200A46D25 /* Build configuration list for PBXNativeTarget "Search in Rotated Sorted Array" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD28B401B39BA2600006830 /* Debug */,
-				ECD28B411B39BA2600006830 /* Release */,
+				ECD80BAE1B3EE5A200A46D25 /* Debug */,
+				ECD80BAF1B3EE5A200A46D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECD28B301B39BA2600006830 /* Project object */;
+	rootObject = ECD80B9E1B3EE5A200A46D25 /* Project object */;
 }
