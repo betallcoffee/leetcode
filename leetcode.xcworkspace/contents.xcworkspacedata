@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Search Insert Position/Search Insert Position.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Search for Range/Search for Range.xcodeproj">
    </FileRef>
    <FileRef
