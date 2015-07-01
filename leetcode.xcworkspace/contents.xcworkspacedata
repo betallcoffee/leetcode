@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:First Missing Positive/First Missing Positive.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Combination Sum II/Combination Sum II.xcodeproj">
    </FileRef>
    <FileRef
