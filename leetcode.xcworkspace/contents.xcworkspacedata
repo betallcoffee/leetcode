@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Sudoku Solver/Sudoku Solver.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Valid Sudoku/Valid Sudoku.xcodeproj">
    </FileRef>
    <FileRef

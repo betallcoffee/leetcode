@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD80BF51B40304000A46D25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD80BF41B40304000A46D25 /* main.cpp */; };
+		ECE136A01B43E9EE0098D516 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECE1369F1B43E9EE0098D516 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ECD80BEF1B40304000A46D25 /* CopyFiles */ = {
+		ECE1369A1B43E9EE0098D516 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ECD80BF11B40304000A46D25 /* Valid Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Valid Sudoku"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD80BF41B40304000A46D25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ECE1369C1B43E9EE0098D516 /* Sudoku Solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sudoku Solver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE1369F1B43E9EE0098D516 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECD80BEE1B40304000A46D25 /* Frameworks */ = {
+		ECE136991B43E9EE0098D516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECD80BE81B40304000A46D25 = {
+		ECE136931B43E9EE0098D516 = {
 			isa = PBXGroup;
 			children = (
-				ECD80BF31B40304000A46D25 /* Valid Sudoku */,
-				ECD80BF21B40304000A46D25 /* Products */,
+				ECE1369E1B43E9EE0098D516 /* Sudoku Solver */,
+				ECE1369D1B43E9EE0098D516 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECD80BF21B40304000A46D25 /* Products */ = {
+		ECE1369D1B43E9EE0098D516 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECD80BF11B40304000A46D25 /* Valid Sudoku */,
+				ECE1369C1B43E9EE0098D516 /* Sudoku Solver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD80BF31B40304000A46D25 /* Valid Sudoku */ = {
+		ECE1369E1B43E9EE0098D516 /* Sudoku Solver */ = {
 			isa = PBXGroup;
 			children = (
-				ECD80BF41B40304000A46D25 /* main.cpp */,
+				ECE1369F1B43E9EE0098D516 /* main.cpp */,
 			);
-			path = "Valid Sudoku";
+			path = "Sudoku Solver";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECD80BF01B40304000A46D25 /* Valid Sudoku */ = {
+		ECE1369B1B43E9EE0098D516 /* Sudoku Solver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD80BF81B40304000A46D25 /* Build configuration list for PBXNativeTarget "Valid Sudoku" */;
+			buildConfigurationList = ECE136A31B43E9EE0098D516 /* Build configuration list for PBXNativeTarget "Sudoku Solver" */;
 			buildPhases = (
-				ECD80BED1B40304000A46D25 /* Sources */,
-				ECD80BEE1B40304000A46D25 /* Frameworks */,
-				ECD80BEF1B40304000A46D25 /* CopyFiles */,
+				ECE136981B43E9EE0098D516 /* Sources */,
+				ECE136991B43E9EE0098D516 /* Frameworks */,
+				ECE1369A1B43E9EE0098D516 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Valid Sudoku";
-			productName = "Valid Sudoku";
-			productReference = ECD80BF11B40304000A46D25 /* Valid Sudoku */;
+			name = "Sudoku Solver";
+			productName = "Sudoku Solver";
+			productReference = ECE1369C1B43E9EE0098D516 /* Sudoku Solver */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECD80BE91B40304000A46D25 /* Project object */ = {
+		ECE136941B43E9EE0098D516 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tina;
 				TargetAttributes = {
-					ECD80BF01B40304000A46D25 = {
+					ECE1369B1B43E9EE0098D516 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = ECD80BEC1B40304000A46D25 /* Build configuration list for PBXProject "Valid Sudoku" */;
+			buildConfigurationList = ECE136971B43E9EE0098D516 /* Build configuration list for PBXProject "Sudoku Solver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ECD80BE81B40304000A46D25;
-			productRefGroup = ECD80BF21B40304000A46D25 /* Products */;
+			mainGroup = ECE136931B43E9EE0098D516;
+			productRefGroup = ECE1369D1B43E9EE0098D516 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECD80BF01B40304000A46D25 /* Valid Sudoku */,
+				ECE1369B1B43E9EE0098D516 /* Sudoku Solver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECD80BED1B40304000A46D25 /* Sources */ = {
+		ECE136981B43E9EE0098D516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD80BF51B40304000A46D25 /* main.cpp in Sources */,
+				ECE136A01B43E9EE0098D516 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ECD80BF61B40304000A46D25 /* Debug */ = {
+		ECE136A11B43E9EE0098D516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		ECD80BF71B40304000A46D25 /* Release */ = {
+		ECE136A21B43E9EE0098D516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		ECD80BF91B40304000A46D25 /* Debug */ = {
+		ECE136A41B43E9EE0098D516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ECD80BFA1B40304000A46D25 /* Release */ = {
+		ECE136A51B43E9EE0098D516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECD80BEC1B40304000A46D25 /* Build configuration list for PBXProject "Valid Sudoku" */ = {
+		ECE136971B43E9EE0098D516 /* Build configuration list for PBXProject "Sudoku Solver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD80BF61B40304000A46D25 /* Debug */,
-				ECD80BF71B40304000A46D25 /* Release */,
+				ECE136A11B43E9EE0098D516 /* Debug */,
+				ECE136A21B43E9EE0098D516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD80BF81B40304000A46D25 /* Build configuration list for PBXNativeTarget "Valid Sudoku" */ = {
+		ECE136A31B43E9EE0098D516 /* Build configuration list for PBXNativeTarget "Sudoku Solver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD80BF91B40304000A46D25 /* Debug */,
-				ECD80BFA1B40304000A46D25 /* Release */,
+				ECE136A41B43E9EE0098D516 /* Debug */,
+				ECE136A51B43E9EE0098D516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECD80BE91B40304000A46D25 /* Project object */;
+	rootObject = ECE136941B43E9EE0098D516 /* Project object */;
 }
