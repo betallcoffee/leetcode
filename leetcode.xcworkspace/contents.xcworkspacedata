@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Count and Say/Count and Say.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Sudoku Solver/Sudoku Solver.xcodeproj">
    </FileRef>
    <FileRef
