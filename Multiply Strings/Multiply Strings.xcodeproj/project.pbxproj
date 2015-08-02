@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD9D6831B5D226D00D1FB74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECD9D6821B5D226D00D1FB74 /* main.cpp */; };
+		EC0B36541B6D0563008B5C90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0B36531B6D0563008B5C90 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ECD9D67D1B5D226D00D1FB74 /* CopyFiles */ = {
+		EC0B364E1B6D0563008B5C90 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ECD9D67F1B5D226D00D1FB74 /* Trapping Rain Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Trapping Rain Water"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD9D6821B5D226D00D1FB74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC0B36501B6D0563008B5C90 /* Multiply Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiply Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0B36531B6D0563008B5C90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECD9D67C1B5D226D00D1FB74 /* Frameworks */ = {
+		EC0B364D1B6D0563008B5C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECD9D6761B5D226D00D1FB74 = {
+		EC0B36471B6D0563008B5C90 = {
 			isa = PBXGroup;
 			children = (
-				ECD9D6811B5D226D00D1FB74 /* Trapping Rain Water */,
-				ECD9D6801B5D226D00D1FB74 /* Products */,
+				EC0B36521B6D0563008B5C90 /* Multiply Strings */,
+				EC0B36511B6D0563008B5C90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECD9D6801B5D226D00D1FB74 /* Products */ = {
+		EC0B36511B6D0563008B5C90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECD9D67F1B5D226D00D1FB74 /* Trapping Rain Water */,
+				EC0B36501B6D0563008B5C90 /* Multiply Strings */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD9D6811B5D226D00D1FB74 /* Trapping Rain Water */ = {
+		EC0B36521B6D0563008B5C90 /* Multiply Strings */ = {
 			isa = PBXGroup;
 			children = (
-				ECD9D6821B5D226D00D1FB74 /* main.cpp */,
+				EC0B36531B6D0563008B5C90 /* main.cpp */,
 			);
-			path = "Trapping Rain Water";
+			path = "Multiply Strings";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECD9D67E1B5D226D00D1FB74 /* Trapping Rain Water */ = {
+		EC0B364F1B6D0563008B5C90 /* Multiply Strings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD9D6861B5D226D00D1FB74 /* Build configuration list for PBXNativeTarget "Trapping Rain Water" */;
+			buildConfigurationList = EC0B36571B6D0563008B5C90 /* Build configuration list for PBXNativeTarget "Multiply Strings" */;
 			buildPhases = (
-				ECD9D67B1B5D226D00D1FB74 /* Sources */,
-				ECD9D67C1B5D226D00D1FB74 /* Frameworks */,
-				ECD9D67D1B5D226D00D1FB74 /* CopyFiles */,
+				EC0B364C1B6D0563008B5C90 /* Sources */,
+				EC0B364D1B6D0563008B5C90 /* Frameworks */,
+				EC0B364E1B6D0563008B5C90 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Trapping Rain Water";
-			productName = "Trapping Rain Water";
-			productReference = ECD9D67F1B5D226D00D1FB74 /* Trapping Rain Water */;
+			name = "Multiply Strings";
+			productName = "Multiply Strings";
+			productReference = EC0B36501B6D0563008B5C90 /* Multiply Strings */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECD9D6771B5D226D00D1FB74 /* Project object */ = {
+		EC0B36481B6D0563008B5C90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tina;
 				TargetAttributes = {
-					ECD9D67E1B5D226D00D1FB74 = {
+					EC0B364F1B6D0563008B5C90 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = ECD9D67A1B5D226D00D1FB74 /* Build configuration list for PBXProject "Trapping Rain Water" */;
+			buildConfigurationList = EC0B364B1B6D0563008B5C90 /* Build configuration list for PBXProject "Multiply Strings" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ECD9D6761B5D226D00D1FB74;
-			productRefGroup = ECD9D6801B5D226D00D1FB74 /* Products */;
+			mainGroup = EC0B36471B6D0563008B5C90;
+			productRefGroup = EC0B36511B6D0563008B5C90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECD9D67E1B5D226D00D1FB74 /* Trapping Rain Water */,
+				EC0B364F1B6D0563008B5C90 /* Multiply Strings */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECD9D67B1B5D226D00D1FB74 /* Sources */ = {
+		EC0B364C1B6D0563008B5C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD9D6831B5D226D00D1FB74 /* main.cpp in Sources */,
+				EC0B36541B6D0563008B5C90 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ECD9D6841B5D226D00D1FB74 /* Debug */ = {
+		EC0B36551B6D0563008B5C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		ECD9D6851B5D226D00D1FB74 /* Release */ = {
+		EC0B36561B6D0563008B5C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		ECD9D6871B5D226D00D1FB74 /* Debug */ = {
+		EC0B36581B6D0563008B5C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ECD9D6881B5D226D00D1FB74 /* Release */ = {
+		EC0B36591B6D0563008B5C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECD9D67A1B5D226D00D1FB74 /* Build configuration list for PBXProject "Trapping Rain Water" */ = {
+		EC0B364B1B6D0563008B5C90 /* Build configuration list for PBXProject "Multiply Strings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD9D6841B5D226D00D1FB74 /* Debug */,
-				ECD9D6851B5D226D00D1FB74 /* Release */,
+				EC0B36551B6D0563008B5C90 /* Debug */,
+				EC0B36561B6D0563008B5C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD9D6861B5D226D00D1FB74 /* Build configuration list for PBXNativeTarget "Trapping Rain Water" */ = {
+		EC0B36571B6D0563008B5C90 /* Build configuration list for PBXNativeTarget "Multiply Strings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD9D6871B5D226D00D1FB74 /* Debug */,
-				ECD9D6881B5D226D00D1FB74 /* Release */,
+				EC0B36581B6D0563008B5C90 /* Debug */,
+				EC0B36591B6D0563008B5C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECD9D6771B5D226D00D1FB74 /* Project object */;
+	rootObject = EC0B36481B6D0563008B5C90 /* Project object */;
 }

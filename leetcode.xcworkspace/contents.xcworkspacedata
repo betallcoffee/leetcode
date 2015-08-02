@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Trapping Rain Water/../Multiply Strings/Multiply Strings.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:First Missing Positive/../Trapping Rain Water/Trapping Rain Water.xcodeproj">
    </FileRef>
    <FileRef
