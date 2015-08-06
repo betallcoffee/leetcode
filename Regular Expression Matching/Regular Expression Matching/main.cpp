@@ -104,6 +104,8 @@ public:
 int main(int argc, const char * argv[]) {
     Solution s;
     
+    cout << s.isMatch("aa", "*") << endl;
+    
     cout << s.isMatch("", "") << endl;
     
     cout << s.isMatch("", "") << endl;
