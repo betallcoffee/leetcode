@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Jump Game II/../Permutations/Permutations.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Wildcard Matching/../Jump Game II/Jump Game II.xcodeproj">
    </FileRef>
    <FileRef
