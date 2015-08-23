@@ -1,15 +1,15 @@
 //
 //  main.cpp
-//  Permutations
+//  Permutations II
 //
 //  Created by liang on 8/23/15.
 //  Copyright (c) 2015 tina. All rights reserved.
-//  Problem: https://leetcode.com/problems/permutations/
-//Given a collection of numbers, return all possible permutations.
+//  Problem: https://leetcode.com/problems/permutations-ii/
+//Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 //
 //For example,
-//[1,2,3] have the following permutations:
-//[1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
+//[1,1,2] have the following unique permutations:
+//[1,1,2], [1,2,1], and [2,1,1].
 
 #include <iostream>
 #include <vector>
@@ -23,7 +23,7 @@ size_t sizeOfArray(T (&array)[n]) {
 
 class Solution {
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> all;
         sort(nums.begin(), nums.end());
         all.push_back(nums);
@@ -80,7 +80,7 @@ public:
 void print(vector<vector<int>> vv) {
     for_each(vv.begin(), vv.end(), [=](vector<int> v){
         for_each(v.begin(), v.end(), [=](int n){
-           cout << n << " ";
+            cout << n << " ";
         });
         cout << endl;
     });
@@ -91,19 +91,19 @@ int main(int argc, const char * argv[]) {
     
     int nums5[] = {1, 1, 2};
     vector<int> v5(nums5, nums5 + sizeOfArray(nums5));
-    print(s.permute(v5));
+    print(s.permuteUnique(v5));
     
     int nums4[] = {0,-1,1};
     vector<int> v4(nums4, nums4 + sizeOfArray(nums4));
-    print(s.permute(v4));
+    print(s.permuteUnique(v4));
     
     int nums3[] = {1};
     vector<int> v3(nums3, nums3 + sizeOfArray(nums3));
-    print(s.permute(v3));
+    print(s.permuteUnique(v3));
     
     int nums2[] = {1, 2, 3};
     vector<int> v2(nums2, nums2 + sizeOfArray(nums2));
-    print(s.permute(v2));
+    print(s.permuteUnique(v2));
     
     return 0;
 }
