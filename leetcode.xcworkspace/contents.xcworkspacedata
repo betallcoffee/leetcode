@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Wildcard Matching/../Jump Game II/Jump Game II.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Multiply Strings/../Wildcard Matching/Wildcard Matching.xcodeproj">
    </FileRef>
    <FileRef

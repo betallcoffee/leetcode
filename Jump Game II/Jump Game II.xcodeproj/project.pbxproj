@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC0B366D1B6E3AC1008B5C90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC0B366C1B6E3AC1008B5C90 /* main.cpp */; };
+		EC559C0B1B739F0F00EAD165 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC559C0A1B739F0F00EAD165 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EC0B36671B6E3AC1008B5C90 /* CopyFiles */ = {
+		EC559C051B739F0F00EAD165 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EC0B36691B6E3AC1008B5C90 /* Wildcard Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wildcard Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC0B366C1B6E3AC1008B5C90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC559C071B739F0F00EAD165 /* Jump Game II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Jump Game II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC559C0A1B739F0F00EAD165 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC0B36661B6E3AC1008B5C90 /* Frameworks */ = {
+		EC559C041B739F0F00EAD165 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC0B36601B6E3AC1008B5C90 = {
+		EC559BFE1B739F0E00EAD165 = {
 			isa = PBXGroup;
 			children = (
-				EC0B366B1B6E3AC1008B5C90 /* Wildcard Matching */,
-				EC0B366A1B6E3AC1008B5C90 /* Products */,
+				EC559C091B739F0F00EAD165 /* Jump Game II */,
+				EC559C081B739F0F00EAD165 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC0B366A1B6E3AC1008B5C90 /* Products */ = {
+		EC559C081B739F0F00EAD165 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC0B36691B6E3AC1008B5C90 /* Wildcard Matching */,
+				EC559C071B739F0F00EAD165 /* Jump Game II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC0B366B1B6E3AC1008B5C90 /* Wildcard Matching */ = {
+		EC559C091B739F0F00EAD165 /* Jump Game II */ = {
 			isa = PBXGroup;
 			children = (
-				EC0B366C1B6E3AC1008B5C90 /* main.cpp */,
+				EC559C0A1B739F0F00EAD165 /* main.cpp */,
 			);
-			path = "Wildcard Matching";
+			path = "Jump Game II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC0B36681B6E3AC1008B5C90 /* Wildcard Matching */ = {
+		EC559C061B739F0F00EAD165 /* Jump Game II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC0B36701B6E3AC1008B5C90 /* Build configuration list for PBXNativeTarget "Wildcard Matching" */;
+			buildConfigurationList = EC559C0E1B739F0F00EAD165 /* Build configuration list for PBXNativeTarget "Jump Game II" */;
 			buildPhases = (
-				EC0B36651B6E3AC1008B5C90 /* Sources */,
-				EC0B36661B6E3AC1008B5C90 /* Frameworks */,
-				EC0B36671B6E3AC1008B5C90 /* CopyFiles */,
+				EC559C031B739F0F00EAD165 /* Sources */,
+				EC559C041B739F0F00EAD165 /* Frameworks */,
+				EC559C051B739F0F00EAD165 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Wildcard Matching";
-			productName = "Wildcard Matching";
-			productReference = EC0B36691B6E3AC1008B5C90 /* Wildcard Matching */;
+			name = "Jump Game II";
+			productName = "Jump Game II";
+			productReference = EC559C071B739F0F00EAD165 /* Jump Game II */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC0B36611B6E3AC1008B5C90 /* Project object */ = {
+		EC559BFF1B739F0E00EAD165 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tina;
 				TargetAttributes = {
-					EC0B36681B6E3AC1008B5C90 = {
+					EC559C061B739F0F00EAD165 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = EC0B36641B6E3AC1008B5C90 /* Build configuration list for PBXProject "Wildcard Matching" */;
+			buildConfigurationList = EC559C021B739F0E00EAD165 /* Build configuration list for PBXProject "Jump Game II" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EC0B36601B6E3AC1008B5C90;
-			productRefGroup = EC0B366A1B6E3AC1008B5C90 /* Products */;
+			mainGroup = EC559BFE1B739F0E00EAD165;
+			productRefGroup = EC559C081B739F0F00EAD165 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC0B36681B6E3AC1008B5C90 /* Wildcard Matching */,
+				EC559C061B739F0F00EAD165 /* Jump Game II */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC0B36651B6E3AC1008B5C90 /* Sources */ = {
+		EC559C031B739F0F00EAD165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0B366D1B6E3AC1008B5C90 /* main.cpp in Sources */,
+				EC559C0B1B739F0F00EAD165 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EC0B366E1B6E3AC1008B5C90 /* Debug */ = {
+		EC559C0C1B739F0F00EAD165 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		EC0B366F1B6E3AC1008B5C90 /* Release */ = {
+		EC559C0D1B739F0F00EAD165 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		EC0B36711B6E3AC1008B5C90 /* Debug */ = {
+		EC559C0F1B739F0F00EAD165 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		EC0B36721B6E3AC1008B5C90 /* Release */ = {
+		EC559C101B739F0F00EAD165 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC0B36641B6E3AC1008B5C90 /* Build configuration list for PBXProject "Wildcard Matching" */ = {
+		EC559C021B739F0E00EAD165 /* Build configuration list for PBXProject "Jump Game II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC0B366E1B6E3AC1008B5C90 /* Debug */,
-				EC0B366F1B6E3AC1008B5C90 /* Release */,
+				EC559C0C1B739F0F00EAD165 /* Debug */,
+				EC559C0D1B739F0F00EAD165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC0B36701B6E3AC1008B5C90 /* Build configuration list for PBXNativeTarget "Wildcard Matching" */ = {
+		EC559C0E1B739F0F00EAD165 /* Build configuration list for PBXNativeTarget "Jump Game II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC0B36711B6E3AC1008B5C90 /* Debug */,
-				EC0B36721B6E3AC1008B5C90 /* Release */,
+				EC559C0F1B739F0F00EAD165 /* Debug */,
+				EC559C101B739F0F00EAD165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC0B36611B6E3AC1008B5C90 /* Project object */;
+	rootObject = EC559BFF1B739F0E00EAD165 /* Project object */;
 }
