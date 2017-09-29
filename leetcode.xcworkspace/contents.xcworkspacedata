@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Permutations II/../Rotate Image/Rotate Image.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Permutations/../Permutations II/Permutations II.xcodeproj">
    </FileRef>
    <FileRef
