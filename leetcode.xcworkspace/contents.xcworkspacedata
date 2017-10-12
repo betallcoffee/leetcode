@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Length of Last Word/Length of Last Word.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Insert Interval/Insert Interval.xcodeproj">
    </FileRef>
    <FileRef
