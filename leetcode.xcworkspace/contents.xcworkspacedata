@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Insert Interval/Insert Interval.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Merge Intervals/Merge Intervals.xcodeproj">
    </FileRef>
    <FileRef
