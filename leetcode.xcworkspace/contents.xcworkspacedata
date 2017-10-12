@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Spiral Matrix/Spiral Matrix.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Maximum Subarray/Maximum Subarray.xcodeproj">
    </FileRef>
    <FileRef
