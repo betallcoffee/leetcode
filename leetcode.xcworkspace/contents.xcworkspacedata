@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Unique Binary Search Trees/Unique Binary Search Trees.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Interleaving String/Interleaving String.xcodeproj">
    </FileRef>
    <FileRef
