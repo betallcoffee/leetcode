@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Recover Binary Search Tree/Recover Binary Search Tree.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Same Tree/Same Tree.xcodeproj">
    </FileRef>
    <FileRef
