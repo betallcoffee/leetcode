@@ -35,7 +35,7 @@ public:
         
         TreeNode *elm1 = NULL;
         TreeNode *elm2 = NULL;
-        preorder(root, NULL, &elm1, &elm2);
+        inorder(root, NULL, &elm1, &elm2);
         
         if (elm1 && elm2) {
             int t = elm1->val;
@@ -44,12 +44,12 @@ public:
         }
     }
     
-    TreeNode *preorder(TreeNode *root, TreeNode *last, TreeNode **elm1, TreeNode **elm2) {
+    TreeNode *inorder(TreeNode *root, TreeNode *last, TreeNode **elm1, TreeNode **elm2) {
         TreeNode *pre;
         if (root->left == NULL) {
             pre = last;
         } else if (root->left) {
-            pre = preorder(root->left, last, elm1, elm2);
+            pre = inorder(root->left, last, elm1, elm2);
         }
         
         if (pre && pre->val > root->val) {
@@ -62,7 +62,7 @@ public:
         }
         
         if (root->right) {
-            return preorder(root->right, root, elm1, elm2);
+            return inorder(root->right, root, elm1, elm2);
         } else {
             return root;
         }
