@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Decode Ways II/Decode Ways II.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Decode Ways/Decode Ways.xcodeproj">
    </FileRef>
    <FileRef
