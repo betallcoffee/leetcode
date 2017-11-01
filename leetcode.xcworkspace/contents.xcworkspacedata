@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Merge Sorted Array/Merge Sorted Array.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Gray Code/Gray Code.xcodeproj">
    </FileRef>
    <FileRef
