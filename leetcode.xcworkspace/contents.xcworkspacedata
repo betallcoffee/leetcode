@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Scramble String/Scramble String.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Merge Sorted Array/Merge Sorted Array.xcodeproj">
    </FileRef>
    <FileRef
