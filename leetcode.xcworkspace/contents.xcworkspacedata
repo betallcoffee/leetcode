@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Rotate List/Rotate List.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Scramble String/Scramble String.xcodeproj">
    </FileRef>
    <FileRef
