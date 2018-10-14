@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Count of Smaller Numbers After Self/Count of Smaller Numbers After Self.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Range Sum Query - Mutable/Range Sum Query - Mutable.xcodeproj">
    </FileRef>
    <FileRef
