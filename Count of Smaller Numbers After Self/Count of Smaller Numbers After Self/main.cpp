@@ -44,7 +44,7 @@ public:
                 min = item;
             }
         }
-        // 构建 线段树
+        // 构建 线段树, 构建以最小值和最大值为区间的线段树
         root = build(min, max);
         // 逆向遍历数组
         for (int i = count - 1; i >= 0; i--) {
