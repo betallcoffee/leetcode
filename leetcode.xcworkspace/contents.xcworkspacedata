@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Range Module/Range Module.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Count of Smaller Numbers After Self/../My Calendar III/My Calendar III.xcodeproj">
    </FileRef>
    <FileRef
