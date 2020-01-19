@@ -5,6 +5,9 @@
       location = "group:tree"
       name = "tree">
       <FileRef
+         location = "group:Binary Tree Level Order Traversal/Binary Tree Level Order Traversal.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Symmetric Tree/Symmetric Tree.xcodeproj">
       </FileRef>
    </Group>
