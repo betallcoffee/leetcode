@@ -5,6 +5,9 @@
       location = "group:tree"
       name = "tree">
       <FileRef
+         location = "group:Binary Tree Zigzag Level Order Traversal/Binary Tree Zigzag Level Order Traversal.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Binary Tree Level Order Traversal/Binary Tree Level Order Traversal.xcodeproj">
       </FileRef>
       <FileRef
