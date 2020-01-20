@@ -15,6 +15,8 @@
  */
 
 #include <iostream>
+#include <queue>
+#include <vector>
 
 /**
  * Definition for a binary tree node.
@@ -45,10 +47,10 @@ public:
     }
     
     TreeNode *inorder(TreeNode *root, TreeNode *last, TreeNode **elm1, TreeNode **elm2) {
-        TreeNode *pre;
+        TreeNode *pre = NULL;
         if (root->left == NULL) {
             pre = last;
-        } else if (root->left) {
+        } else if (root->left != NULL) {
             pre = inorder(root->left, last, elm1, elm2);
         }
         
@@ -69,24 +71,50 @@ public:
     }
     
     void printTree(TreeNode *root) {
+        printf("%d, ", root->val);
         if (root->left) {
             printTree(root->left);
         }
-        printf("%d, ", root->val);
         if (root->right) {
             printTree(root->right);
         }
     }
 };
 
+TreeNode* createATree(std::vector<int> list) {
+    TreeNode* root = new TreeNode(list[0]);
+    std::queue<TreeNode*> queue;
+    queue.push(root);
+    int i = 0;
+    while (!queue.empty()) {
+        TreeNode* node = queue.front();
+        queue.pop();
+        if (node != nullptr) {
+            int left = i * 2 + 1;
+            int right = i * 2 + 2;
+            if (left < list.size() && list[left] != 0) {
+                node->left = new TreeNode(list[left]);
+                queue.push(node->left);
+            }
+            if (right < list.size() && list[right] != 0) {
+                node->right = new TreeNode(list[right]);
+                queue.push(node->right);
+            }
+        }
+        i++;
+    }
+    
+    return root;
+}
+
 void test1() {
-    TreeNode node0(0), node1(1);
-    node0.left = &node1;
+    std::vector<int> list = {1,3,0,0,2};
+    TreeNode* tree = createATree(list);
     Solution s;
-    s.printTree(&node0);
+    s.printTree(tree);
     printf("\n");
-    s.recoverTree(&node0);
-    s.printTree(&node0);
+    s.recoverTree(tree);
+    s.printTree(tree);
     printf("\n");
 }
 
