@@ -5,6 +5,9 @@
       location = "group:tree"
       name = "tree">
       <FileRef
+         location = "group:Populating Next Right Pointers in Each Node II/Populating Next Right Pointers in Each Node II.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Construct Binary Tree from Preorder and Inorder Traversal/Construct Binary Tree from Preorder and Inorder Traversal.xcodeproj">
       </FileRef>
       <FileRef
