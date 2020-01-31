@@ -5,6 +5,9 @@
       location = "group:string"
       name = "string">
       <FileRef
+         location = "group:Valid Palindrome/Valid Palindrome.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Longest Palindromic Substring/Longest Palindromic Substring.xcodeproj">
       </FileRef>
    </Group>
