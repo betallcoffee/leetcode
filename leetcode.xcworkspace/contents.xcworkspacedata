@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:string"
+      name = "string">
+      <FileRef
+         location = "group:Longest Palindromic Substring/Longest Palindromic Substring.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:tree"
       name = "tree">
       <FileRef
@@ -1026,20 +1033,6 @@
                location = "group:main.cpp">
             </FileRef>
          </Group>
-      </Group>
-      <Group
-         location = "group:Longest Palindromic Substring"
-         name = "Longest Palindromic Substring">
-         <Group
-            location = "group:Longest Palindromic Substring"
-            name = "Longest Palindromic Substring">
-            <FileRef
-               location = "group:main.cpp">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:Longest Palindromic Substring.xcodeproj">
-         </FileRef>
       </Group>
       <Group
          location = "group:Swap Nodes In Pairs"
