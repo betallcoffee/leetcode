@@ -5,6 +5,9 @@
       location = "group:string"
       name = "string">
       <FileRef
+         location = "group:Palindrome Partitioning/Palindrome Partitioning.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Valid Palindrome/Valid Palindrome.xcodeproj">
       </FileRef>
       <FileRef
