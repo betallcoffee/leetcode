@@ -5,6 +5,9 @@
       location = "group:string"
       name = "string">
       <FileRef
+         location = "group:Implement Trie/Implement Trie.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Word Break II/Word Break II.xcodeproj">
       </FileRef>
       <FileRef

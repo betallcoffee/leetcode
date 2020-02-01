@@ -15,6 +15,18 @@
 //Given an integer n, generate the nth sequence.
 //
 //Note: The sequence of integers will be represented as a string.
+/**
+ Example 1:
+
+ Input: 1
+ Output: "1"
+ Explanation: This is the base case.
+ Example 2:
+
+ Input: 4
+ Output: "1211"
+ Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1", "2" can be read as "12" which mea
+ */
 
 #include <iostream>
 
