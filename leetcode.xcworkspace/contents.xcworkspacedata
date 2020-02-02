@@ -5,6 +5,12 @@
       location = "group:linked-list"
       name = "linked-list">
       <FileRef
+         location = "group:Reverse Linked List II/Reverse Linked List II.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Reverse Linked List/Reverse Linked List.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Sort List/Sort List.xcodeproj">
       </FileRef>
       <FileRef
@@ -593,20 +599,6 @@
          </Group>
       </Group>
       <Group
-         location = "group:Reverse Linked List"
-         name = "Reverse Linked List">
-         <Group
-            location = "group:Reverse Linked List"
-            name = "Reverse Linked List">
-            <FileRef
-               location = "group:main.cpp">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:Reverse Linked List.xcodeproj">
-         </FileRef>
-      </Group>
-      <Group
          location = "group:Maximum Product Subarray"
          name = "Maximum Product Subarray">
          <Group
@@ -920,20 +912,6 @@
          <Group
             location = "group:Search for Range"
             name = "Search for Range">
-            <FileRef
-               location = "group:main.cpp">
-            </FileRef>
-         </Group>
-      </Group>
-      <Group
-         location = "group:Reverse Linked List II"
-         name = "Reverse Linked List II">
-         <FileRef
-            location = "group:Reverse Linked List II.xcodeproj">
-         </FileRef>
-         <Group
-            location = "group:Reverse Linked List II"
-            name = "Reverse Linked List II">
             <FileRef
                location = "group:main.cpp">
             </FileRef>

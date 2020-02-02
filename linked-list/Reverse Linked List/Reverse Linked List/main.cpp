@@ -30,7 +30,7 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
+    ListNode* reverseList1(ListNode* head) {
         ListNode node(0);
         node.next = head;
         
@@ -54,6 +54,19 @@ public:
             second = first->next;
             third = temp;
             last->next = third;
+        }
+        
+        return node.next;
+    }
+    
+    ListNode* reverseList(ListNode* head) {
+        ListNode node(0);
+        ListNode* cur = head;
+        while (cur) {
+            ListNode* next = cur->next;
+            cur->next = node.next;
+            node.next = cur;
+            cur = next;
         }
         
         return node.next;
