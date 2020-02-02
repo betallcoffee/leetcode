@@ -5,6 +5,9 @@
       location = "group:linked-list"
       name = "linked-list">
       <FileRef
+         location = "group:Linked List Cycle II/Linked List Cycle II.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Linked List Cycle/Linked List Cycle.xcodeproj">
       </FileRef>
       <FileRef
