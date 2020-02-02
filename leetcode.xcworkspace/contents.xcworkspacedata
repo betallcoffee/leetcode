@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:linked-list"
+      name = "linked-list">
+      <FileRef
+         location = "group:Copy List with Random Pointer/Copy List with Random Pointer.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:string"
       name = "string">
       <FileRef
