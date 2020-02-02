@@ -5,6 +5,9 @@
       location = "group:linked-list"
       name = "linked-list">
       <FileRef
+         location = "group:Delete Node in a Linked List/Delete Node in a Linked List.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Palindrome Linked List/Palindrome Linked List.xcodeproj">
       </FileRef>
       <FileRef
