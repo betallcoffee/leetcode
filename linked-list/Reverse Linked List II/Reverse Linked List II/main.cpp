@@ -35,6 +35,48 @@ struct ListNode {
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
+        if (m == n || head == nullptr) {
+            return head;
+        }
+        
+        ListNode node(0);
+        ListNode* tail = nullptr;
+        
+        ListNode* pre = nullptr;
+        ListNode* cur = nullptr;
+        do {
+            m--;
+            n--;
+            pre = cur;
+            if (cur == nullptr) {
+                cur = head;
+            } else {
+                cur = cur->next;
+            }
+        } while (m > 0 && cur != nullptr);
+        
+        while (cur != nullptr && n >= 0) {
+            ListNode* next = cur->next;
+            if (tail == nullptr) {
+                tail = cur;
+            }
+            cur->next = node.next;
+            node.next = cur;
+            n--;
+            cur = next;
+        }
+        
+        tail->next = cur;
+        if (pre != nullptr) {
+            pre->next = node.next;
+        } else {
+            head = node.next;
+        }
+        
+        return head;
+    }
+    
+    ListNode* reverseBetween1(ListNode* head, int m, int n) {
         ListNode node(0);
         node.next = head;
         
@@ -121,8 +163,38 @@ void test2() {
     s.printList(root);
 }
 
+void test3() {
+    Solution s;
+    vector<int> nums = {3,5};
+    ListNode *root = s.createList(nums);
+    s.printList(root);
+    root = s.reverseBetween(root, 1, 1);
+    s.printList(root);
+}
+
+void test4() {
+    Solution s;
+    vector<int> nums = {3,5};
+    ListNode *root = s.createList(nums);
+    s.printList(root);
+    root = s.reverseBetween(root, 1, 2);
+    s.printList(root);
+}
+
+void test5() {
+    Solution s;
+    vector<int> nums = {1,2,3};
+    ListNode *root = s.createList(nums);
+    s.printList(root);
+    root = s.reverseBetween(root, 1, 2);
+    s.printList(root);
+}
+
 int main(int argc, const char * argv[]) {
     test1();
     test2();
+    test3();
+    test4();
+    test5();
     return 0;
 }
