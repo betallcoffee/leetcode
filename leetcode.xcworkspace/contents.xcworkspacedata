@@ -5,6 +5,9 @@
       location = "group:linked-list"
       name = "linked-list">
       <FileRef
+         location = "group:Palindrome Linked List/Palindrome Linked List.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Reverse Linked List II/Reverse Linked List II.xcodeproj">
       </FileRef>
       <FileRef
