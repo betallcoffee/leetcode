@@ -5,6 +5,9 @@
       location = "group:dynamic-program"
       name = "dynamic-program">
       <FileRef
+         location = "group:Coin Change/Coin Change.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Longest Increasing Subsequence/Longest Increasing Subsequence.xcodeproj">
       </FileRef>
       <FileRef
