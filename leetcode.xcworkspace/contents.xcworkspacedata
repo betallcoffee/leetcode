@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:dynamic-program"
+      name = "dynamic-program">
+      <FileRef
+         location = "group:Binary Tree Maximum Path Sum/Binary Tree Maximum Path Sum.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:linked-list"
       name = "linked-list">
       <FileRef
