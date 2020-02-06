@@ -5,6 +5,9 @@
       location = "group:dynamic-program"
       name = "dynamic-program">
       <FileRef
+         location = "group:Longest Consecutive Sequence/Longest Consecutive Sequence.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Binary Tree Maximum Path Sum/Binary Tree Maximum Path Sum.xcodeproj">
       </FileRef>
    </Group>
