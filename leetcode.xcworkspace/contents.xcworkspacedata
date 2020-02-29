@@ -19,6 +19,9 @@
       location = "group:dynamic-program"
       name = "dynamic-program">
       <FileRef
+         location = "group:Longest Substring with At Least K Repeating Characters/Longest Substring with At Least K Repeating Characters.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Coin Change/Coin Change.xcodeproj">
       </FileRef>
       <FileRef
