@@ -5,6 +5,9 @@
       location = "group:search"
       name = "search">
       <FileRef
+         location = "group:Find the Duplicate Number/Find the Duplicate Number.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Find Minimum in Rotated Sorted Array II/Find Minimum in Rotated Sorted Array II.xcodeproj">
       </FileRef>
       <FileRef
